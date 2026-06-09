@@ -1,6 +1,7 @@
 # test
 
-library(tidyverse)
+library(ggplot2)
+library(dplyr)
 
 ggplot(diamonds,
        aes(y = cut)) +
