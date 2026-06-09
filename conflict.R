@@ -3,7 +3,7 @@
 library(ggplot2)
 library(dplyr)
 # lol
-ggplot(mtcars,
+ggplot(diamonds,
        aes(y = price)) +
   geom_bar() +
   theme_bw()
