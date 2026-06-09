@@ -2,16 +2,11 @@
 
 library(ggplot2)
 library(dplyr)
-<<<<<<< HEAD
 
-mtcars %>% 
-  filter(mpg > 18) %>% 
+
+diamonds %>% 
+  filter(depth > 56) %>% 
 ggplot(aes(y = price)) +
-=======
-# lol
-ggplot(diamonds,
-       aes(y = price)) +
->>>>>>> cars
   geom_bar() +
   theme_bw()
 
