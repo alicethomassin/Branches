@@ -3,8 +3,9 @@
 library(ggplot2)
 library(dplyr)
 
-ggplot(mtcars,
-       aes(y = price)) +
+mtcars %>% 
+  filter(mpg > 18) %>% 
+ggplot(aes(y = price)) +
   geom_bar() +
   theme_bw()
 
