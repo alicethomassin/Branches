@@ -4,6 +4,6 @@ library(ggplot2)
 library(dplyr)
 
 ggplot(diamonds,
-       aes(y = cut)) +
+       aes(y = price)) +
   geom_bar() +
   theme_minimal()
