@@ -1,3 +1,5 @@
+library(tidyverse)
+
 table2 %>% 
   pivot_wider(id_cols = c(country, year),
               names_from = type,
