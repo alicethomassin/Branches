@@ -6,4 +6,6 @@ library(dplyr)
 ggplot(diamonds,
        aes(y = price)) +
   geom_bar() +
-  theme_minimal()
+  theme_bw()
+
+odb <- table2
