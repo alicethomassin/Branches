@@ -1,3 +1,4 @@
 library(tidyverse)
 
-db <- mtcars
+db <- mtcars %>% 
+  select(1:5)
